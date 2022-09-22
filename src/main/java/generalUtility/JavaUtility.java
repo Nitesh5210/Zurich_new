@@ -28,12 +28,13 @@ public class JavaUtility
 	 * @author DIVYASIDDAPPA
 	 * this process provides the randomnumber within the range of long datatype
 	 * @param number2 
+	 * @param number2 
 	 * 
 	 * 
 	 */
-	public long longrandomnumber(long number2)
+	public long longrandomnumber(int number2)
 	{
-		return new Random().nextLong(number2);
+		return new Random().nextInt(number2);
 	}
 	
 	//access specifier modifier name returntype method_name(parameters if any)
@@ -44,9 +45,9 @@ public class JavaUtility
 		 * 
 		 * 
 		 */
-		public double doublerandomnumber(double number3)
+		public double doublerandomnumber(int number3)
 		{
-			return new Random().nextDouble(number3);
+			return new Random().nextInt(number3);
 		}
 		
 		//access specifier modifier name returntype method_name(parameters if any)
